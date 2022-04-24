@@ -1,0 +1,352 @@
+body{
+font-family: 'Lato', sans-serif;
+background-color:#f5f5f5;
+}
+
+header#header{
+height:200px;
+background-color: #915A67;
+}
+
+a{
+color: inherit;
+}
+
+a:hover{
+text-decoration:none;
+color:inherit;
+}
+
+img{
+max-width: 100%;
+height:auto;
+}
+
+h2{text-decoration:underline;
+}
+
+/* MENU */
+.menu-item{
+font-size: 20px;
+display:inline-block;
+}
+
+.menu-item a,.menu-item a:hover{
+color:#fdcb6b;
+}
+
+.left-menu,.right-menu,.cart{
+padding-top: 70px;
+}
+
+li#menu-item-34{
+margin-left: 60px;
+}
+
+li#menu-item-29{
+margin-right: 20px;
+margin-left: -25px;
+}
+
+li#menu-item-28{
+margin-left:30px;
+}
+
+img.img-fluid{
+margin-left:15px;
+}
+
+i._mi._before.dashicons.dashicons-admin-users{
+color:#000;
+}
+
+i._mi._before.dashicons.dashicons-location{
+color:#000;
+}
+
+
+/*CART*/
+
+.cart-link,.cart-link:hover{
+font-size: 30px;
+color: black;
+position:relative;
+}
+
+.white{
+color: #fff;
+}
+
+.absolute{
+position:absolute;
+top:-15px;
+right:-18px;
+}
+
+.count-cart{
+position: absolute;
+font-size:1.1rem;
+top: -15px;
+right: -8px;
+color:#fdcb6b;
+}
+
+.bg-pink{
+background-color:#C88D9A;
+}
+
+.bg-white{
+background-color: #fff;
+}
+
+.bg-cacao{
+background: url('../images/bg-cacao.jpg');
+background-size:cover;
+}
+
+.mt-6{
+margin-top:6rem;
+}
+
+.pb-8{
+padding-bottom:8rem;
+}
+
+.woocommerce-loop-product__title{
+font-size: 19px;
+}
+
+span.price{
+display:block;
+}
+
+a.add_to_cart_button{
+border: 1px solid #000 !important;
+padding: 5px 15px !important;
+margin-top: 1rem !important;
+display: inline-block !important;
+background-color:#fff !important;
+}
+
+.btn.btn-danger{background:#915A67;
+border-color:#915A67;
+}
+
+/* FOOTER */
+
+footer{
+background:#915A67;
+}
+
+footer ul{
+list-style-type: none;
+padding-left:0;
+}
+
+/* Catégorie woocommerce */
+
+.bg-chocolate{
+
+background: url('../images/assortiment-chocolat.jpg') left top no-repeat;
+background-size:cover;
+position:relative;
+}
+
+.bg-chocolate .overlay{
+position:absolute;
+width:100%;
+height:100%;
+left:0;
+top:0;
+background: white;
+opacity:0.4;
+}
+
+.p-relative{
+position:relative;
+}
+
+.bg-chocolate .woocommerce-products-header__title.page-title{
+text-decoration:underline;
+font-size: 3rem;
+font-weight: bold;
+margin-bottom: 3rem;
+}
+
+.bg-pink2{
+background:#FFE3EE;
+}
+
+.bg-rose{
+background-color:#C88D9A;
+}
+
+#primary-chocolate{
+background-color: #f5f5f5;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+.bg-purple{background-color:#C88D9A;
+}
+
+.fz-30{font-size:30px;
+}
+
+.fz-45{font-size:45px;
+}
+
+.hidden{display:none !important;
+}
+
+.input-qty{
+width: 60px;
+border-radius: 15px;
+border: none;
+padding: 2px 5px;
+}
+
+.input-qty:focus{
+outline:none;
+}
+
+.single_add_to_cart_button{
+border: 1px solid #000 !important;
+padding: 5px 15px !important;
+margin-top: 1rem !important;
+display: inline-block !important;
+background-color:#fff !important;
+}
+
+/* Responsive */
+
+.mobile-menu{
+display:none;
+}
+
+@media (max-width: 992px){
+    .mobile-menu{
+        display:flex;
+        z-index:2;
+    }
+    .desktop-menu{
+        display:none;
+    }
+
+    .mobile-menu .menu{
+        background-color:#f5f5f5;
+        padding-right:15px;
+        padding-left:15px;
+    }
+
+    .row.z-3{
+    z-index: 3000;
+    position:absolute;
+    width:100%;
+    background:#915A67;
+    left:15px;
+    top:0px;
+    padding-top:10px;
+    }
+
+    header#header{
+    height:auto;
+    }
+
+}
+
+.text-white{
+color:white;
+}
+
+.txt-black{
+color:black;
+}
+
+.mobile-menu .fas{
+font-size:44px;
+}
+
+#menu-responsive{
+padding-left:0;
+}
+
+#menu-responsive li{
+width:100%;
+margin-bottom: 20px;    
+}
+
+#menu-responsive li:first-child{
+margin-top:20px;   
+}
+
+#menu-responsive li a{
+padding:15px;
+background-color:#915A67;
+display:block;
+}
+
+.mobile-menu .menu{
+   opacity: 0;
+   position: absolute;
+   left: 0;
+   right: 0;
+   top:-500px;
+   transition: all 0.6s;
+   z-index:1;
+}
+
+.mobile-menu .menu.active{
+   opacity:1;
+   top: 71px;
+ }
+ 
+/* Connexion */
+
+.connexion{text-align:center;
+text-decoration:underline;
+}
+
+.login{
+background-color:#fff;
+}
+
+.woocommerce form .form-row input.input-text{
+width: 74%;
+height:50%;
+text-align:center;
+}
+
+.login{
+width:100%;
+}
+
+.btn-connexion{
+width:100%;
+}
+
+.lost_password{
+width:15%;
+text-decoration:underline;
+font-size:14px;
+}
+
+
+/* Contact */
+.point-sale{width:100%;
+height:800px;
+position:relative;
+}
+
+.contact{
+width:30%;
+height:40%;
+background-color:#C88D9A;
+position:absolute;
+top: 47%;
+right: 35%;
+}
+
+.img.img-fluid{
+width:30%;
+}
